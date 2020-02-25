@@ -24,7 +24,7 @@ const handleInboundSms = (request, response) => {
 
     let msg;
     let num;
-    if (i === 1) {
+    if (i === 1) { //would check number here if I could, I am send and receiving from the same number
         msg = params.text + 'Please respond with Yes or No if you can join me!';
         num = "18312878250"
     } else {
